@@ -21,7 +21,7 @@ RUN bash /opt/deepvariant/build-prereq.sh
 
 # Test to make sure installation was successful
 # RUN ./build_and_test.sh > pre_req_test_results.txt
-#RUN ./opt/deepvariant/build_and_test.sh
+# RUN ./opt/deepvariant/build_and_test.sh
 
 # Install runtime dependencies and go back to deepvariant directory
-#RUN bash /opt/deepvariant/run-prereq.sh #&& cd -
+RUN bash /opt/deepvariant/run-prereq.sh #&& cd -
